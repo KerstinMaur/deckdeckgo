@@ -141,7 +141,9 @@ export class AppExperimentalSettings {
                            onIonChange={(e: CustomEvent<RangeChangeEventDetail>) => this.updateAccelerometerDelay(e)}>
                 </ion-range>
             </ion-item>
-        </ion-list>]
+        </ion-list>,
+        <app-motion></app-motion>
+        ]
     }
 
 }
